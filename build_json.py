@@ -9,7 +9,7 @@ def compare_data(oldData, newData):
 	data = []
 	last_pub_date = oldData[-1]['pubDate']
 	for nD in newData:
-		if last_pub_date < nD['pubDate']:
+		if nD['pubDate'] > last_pub_date:
 			data.insert(0, {"title": nD['title'], "url": nD['link'], "pubDate": nD['pubDate']})
 		else:
 			break
@@ -35,7 +35,8 @@ def fetch_blog_posts(link):
 		posts = json.loads(response.text)["items"]
 		for post in posts:
 			# skip the comments
-			result.append(post) if len(post["categories"]) != 0	
+			if len(post["categories"]) != 0:
+				result.append(post)
 	elif response.status_code == 404:
 		print('Not Found: ') + link
 	return result
