@@ -4,20 +4,15 @@ import sys
 import json
 import pathlib
 import requests
-import fuzzywuzzy
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
 
 def compare_data(oldData, newData):
 	data = []
+	last_pub_date = oldData[-1]['pubDate']
 	for nD in newData:
-		seen = False
-		for oD in oldData:
-			if fuzz.ratio(oD['title'], nD['title']) > 90:
-				seen = True
-				break
-		if seen == False:
-			data.insert(0, {"title": nD['title'], "url": nD['link']})
+		if last_pub_date < nD['pubDate']:
+			data.insert(0, {"title": nD['title'], "url": nD['link'], "pubDate": nd['pubDate']})
+		else:
+			break
 	return data
 
 def read_json_file(filename):

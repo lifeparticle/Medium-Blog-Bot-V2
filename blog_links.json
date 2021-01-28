@@ -72,11 +72,6 @@
     {
         "title": "How to Connect to a PostgreSQL Database With a Python Serverless Function",
         "link": "https://towardsdatascience.com/how-to-connect-to-a-postgresql-database-with-a-python-serverless-function-f5f3b244475",
-        "pubDate": "2021-01-10 13:00:00"
-    },
-    {
-        "title": "How to Run PostgreSQL and pgAdmin Using Docker",
-        "link": "https://towardsdatascience.com/how-to-run-postgresql-and-pgadmin-using-docker-3a6a8ae918b5",
-        "pubDate": "2021-01-25 13:00:00"
+        "pubDate": "2021-01-10 12:49:24"
     }
 ]
