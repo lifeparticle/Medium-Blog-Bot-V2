@@ -45,7 +45,7 @@
         "pubDate": "2020-12-13 13:00:00"
     },
     {
-        "title": "An Introduction to Ruby Hash",
+        "title": "An Introduction to Ruby Hashes",
         "link": "https://towardsdatascience.com/an-introduction-to-ruby-hash-1c1c4b2dd905",
         "pubDate": "2020-12-24 13:00:00"
     },
@@ -55,7 +55,7 @@
         "pubDate": "2020-12-30 13:00:00"
     },
     {
-        "title": "How to Connect to a Heroku Postgres Database With pgadmin4 Using Docker",
+        "title": "How to Connect to a Heroku Postgres Database With pgadmin Using Docker",
         "link": "https://towardsdatascience.com/how-to-connect-to-a-heroku-postgres-database-with-pgadmin4-using-docker-6ac1e423ae66",
         "pubDate": "2021-01-04 13:00:00"
     },
@@ -68,10 +68,5 @@
         "title": "How to Deploy a Python Serverless Function to Vercel",
         "link": "https://towardsdatascience.com/how-to-deploy-a-python-serverless-function-to-vercel-f43c8ca393a0",
         "pubDate": "2021-01-11 12:49:24"
-    },
-    {
-        "title": "How to Run PostgreSQL and pgAdmin Using Docker",
-        "url": "https://towardsdatascience.com/how-to-run-postgresql-and-pgadmin-using-docker-3a6a8ae918b5?source=rss-4430950b9342------2",
-        "pubDate": "2021-01-25 13:15:40"
     }
 ]
