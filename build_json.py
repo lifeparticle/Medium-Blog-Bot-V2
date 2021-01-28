@@ -35,9 +35,7 @@ def fetch_blog_posts(link):
 		posts = json.loads(response.text)["items"]
 		for post in posts:
 			# skip the comments
-			if len(post["categories"]) != 0:
-				post["pubDate"] = post["pubDate"].split()[0]
-				result.append(post)
+			result.append(post) if len(post["categories"]) != 0:				
 	elif response.status_code == 404:
 		print('Not Found: ') + link
 	return result
