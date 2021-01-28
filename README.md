@@ -19,9 +19,8 @@ Array.prototype.forEach.call(posts, function(post) {
     post.link = post.link.replace("?source=your_stories_page-------------------------------------", "");
     post.pubDate = post.pubDate.replace("on", "");
     post.pubDate = post.pubDate.includes(",") ? new Date(post.pubDate) : new Date(post.pubDate+" "+new Date().getFullYear());
-    cleanPosts.unshift(post);
+    cleanPosts.push(post);
 });
-
 
 var jsonData = JSON.stringify(cleanPosts, null, "\t");
 console.log(jsonData);
