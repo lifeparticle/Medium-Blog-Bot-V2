@@ -45,7 +45,7 @@
 			console.log( "success" );;
 			document.getElementById("posts").start = ""+data.length - 1;
 			for(var i = data.length - 1; i >= 0; i--) {
-				$('#posts').append($(document.createElement('li')).html("<a class='text-dark' target='_blank' href="+data[i].url+">"+data[i].title+"</a>"));
+				$('#posts').append($(document.createElement('li')).html("<a class='text-dark' target='_blank' href="+data[i].link+">"+data[i].title+"</a>"));
 			}
 		}).done(function() {
 			console.log( "second success" );

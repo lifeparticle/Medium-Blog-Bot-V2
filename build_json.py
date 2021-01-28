@@ -10,7 +10,7 @@ def compare_data(oldData, newData):
 	last_pub_date = oldData[-1]['pubDate']
 	for nD in newData:
 		if nD['pubDate'] > last_pub_date:
-			data.insert(0, {"title": nD['title'], "url": nD['link'], "pubDate": nD['pubDate']})
+			data.insert(0, {"title": nD['title'], "link": nD['link'], "pubDate": nD['pubDate']})
 		else:
 			break
 	return data
