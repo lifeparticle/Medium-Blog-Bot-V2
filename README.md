@@ -19,6 +19,7 @@ Array.prototype.forEach.call(posts, function(post) {
     post.link = post.link.replace("?source=your_stories_page-------------------------------------", "");
     post.pubDate = post.pubDate.replace("on", "");
     post.pubDate = post.pubDate.includes(",") ? new Date(post.pubDate) : new Date(post.pubDate+" "+new Date().getFullYear());
+    post.pubDate = post.pubDate.toISOString().replace('T', ' ').substr(0, 19)
     cleanPosts.push(post);
 });
 
