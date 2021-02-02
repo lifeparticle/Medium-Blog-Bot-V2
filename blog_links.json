@@ -78,5 +78,10 @@
         "title": "How to Run PostgreSQL and pgAdmin Using Docker",
         "link": "https://towardsdatascience.com/how-to-run-postgresql-and-pgadmin-using-docker-3a6a8ae918b5?source=rss-4430950b9342------2",
         "pubDate": "2021-01-25 13:15:40"
+    },
+    {
+        "title": "How to Determine a Prime Number Efficiently",
+        "link": "https://medium.com/logic-gates/how-to-determine-a-prime-number-efficiently-bca843c4d377?source=rss-4430950b9342------2",
+        "pubDate": "2021-02-02 00:09:55"
     }
 ]
