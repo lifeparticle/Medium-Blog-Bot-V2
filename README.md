@@ -1,5 +1,6 @@
 # Medium-Blog-Bot-V2
 
+[How I Built a Self-Updating Blog Catalog Using a Bot — Part 2](https://levelup.gitconnected.com/how-i-built-a-self-updating-blog-catalog-using-a-bot-part-2-a67968be5f42)
 
 1. Run this in your developer console
 
