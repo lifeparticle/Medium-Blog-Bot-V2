@@ -103,5 +103,10 @@
         "title": "An Introduction to Binary Search",
         "link": "https://medium.com/logic-gates/an-introduction-to-binary-search-7518db2b70b4?source=rss-4430950b9342------2",
         "pubDate": "2021-02-26 11:43:08"
+    },
+    {
+        "title": "How to Deploy a Node.js Serverless Function to Vercel",
+        "link": "https://javascript.plainenglish.io/how-to-deploy-a-node-js-serverless-function-to-vercel-a0dc13cefa0e?source=rss-4430950b9342------2",
+        "pubDate": "2021-03-01 07:08:08"
     }
 ]
